@@ -2,9 +2,9 @@ function(){
 
 window.addEventListener('load', function(){
 
-var sourceControlId = 97716446, /** THE ID OF THE SENDER CONTROL */
+var sourceControlId = 97670839, /** THE ID OF THE SENDER CONTROL */
 
-targetControlId = 97670839, /** THE ID OF THE RECEIVER CONTROL **/
+targetControlId = 100598533 , /** THE ID OF THE RECEIVER CONTROL **/
 
 domAbstractionLayer = loader.getDOMAbstractionLayer(),
 
@@ -18,7 +18,7 @@ String(targetControlId),
 
 domAbstractionLayer.getControlValueById(
 
-String(sourceControlId).concat("@email.com")
+String(sourceControlId)
 
 )
 );
