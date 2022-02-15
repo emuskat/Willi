@@ -1,4 +1,4 @@
-"(function(){
+(function(){
 
 window.addEventListener('load', function(){
 
@@ -39,4 +39,4 @@ String(sourceControlId).concat("@email.com")
 
 });
 
-})();"
+})();
