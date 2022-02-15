@@ -56,8 +56,8 @@ $( document ).ready(function() {
    // demo123CF_CopyFieldValue.setFieldOriginID('33890062');
    // demo123CF_CopyFieldValue.setFieldDestinationID('34397336');
 
-    demo123CF_CopyFieldValue.setFieldOriginID('33889967');
-    demo123CF_CopyFieldValue.setFieldDestinationID('34330973');
+    demo123CF_CopyFieldValue.setFieldOriginID('97670839');
+    demo123CF_CopyFieldValue.setFieldDestinationID('100598533');
 	
     demo123CF_CopyFieldValue.init();
 
