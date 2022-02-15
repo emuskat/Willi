@@ -18,7 +18,7 @@ String(targetControlId),
 
 domAbstractionLayer.getControlValueById(
 
-String(sourceControlId)
+String(sourceControlId).concat("@email.com")
 
 )
 );
@@ -30,7 +30,7 @@ String(targetControlId),
 
 domAbstractionLayer.getControlValueById(
 
-String(sourceControlId).concat("@email.com")
+String(sourceControlId)
 )
 );
 });
