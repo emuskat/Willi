@@ -1,4 +1,4 @@
-(function(){
+function(){
 
 window.addEventListener('load', function(){
 
@@ -21,9 +21,7 @@ domAbstractionLayer.getControlValueById(
 String(sourceControlId)
 
 )
-
 );
-
 });
 
 domAbstractionLayer.setControlValueById(
@@ -34,9 +32,6 @@ domAbstractionLayer.getControlValueById(
 
 String(sourceControlId).concat("@email.com")
 )
-
 );
-
 });
-
-})();
+}
